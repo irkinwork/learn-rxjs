@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 html,
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 62.5%;
   font-weight: normal;
   letter-spacing: 0.2px;
@@ -33,7 +33,7 @@ body {
 .logo-ultimate {
   height: 30px;
   width: 30px;
-  background: url('https://drive.google.com/uc?export=view&id=1gjKk20q5MgptDtuXqc0gAPFcSmkcHJZA')
+  background: url("https://drive.google.com/uc?export=view&id=1gjKk20q5MgptDtuXqc0gAPFcSmkcHJZA")
     no-repeat center center;
   background-size: contain;
 }
@@ -60,8 +60,8 @@ body {
 }
 
 #app h1:before {
-  content: '';
-  background: url('https://drive.google.com/uc?export=view&id=1Dbmt6tlQ-fvMf6VCAGEjr5jZewymhdUE')
+  content: "";
+  background: url("https://drive.google.com/uc?export=view&id=1Dbmt6tlQ-fvMf6VCAGEjr5jZewymhdUE")
     no-repeat center center;
   background-size: contain;
   width: 34px;
@@ -116,9 +116,16 @@ body {
   }
 }
 
-#loading-layout{
+#loading-layout {
   animation-name: fadeOutUp;
 }
 #loading-layout.open {
   animation-name: fadeInDown;
+}
+
+#ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
 }
